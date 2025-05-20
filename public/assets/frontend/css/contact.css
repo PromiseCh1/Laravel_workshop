@@ -1,0 +1,101 @@
+.custom-contact {
+  padding: 100px 20px 60px; /* Top padding accounts for fixed header */
+  background-color: #fff;
+  text-align: center;
+}
+
+.custom-contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.custom-contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.custom-contact-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.custom-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.custom-contact-form label {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.custom-contact-form input,
+.custom-contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.custom-contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.custom-contact-button {
+  background-color: #c40000;
+  color: #ffffff;
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.custom-contact-button:hover {
+  background-color: #a30000;
+  transform: translateY(-2px);
+}
+
+.custom-contact-button:active {
+  background-color: #800000;
+  transform: translateY(0);
+}
+
+.custom-contact-button:focus {
+  outline: 2px solid #a30000;
+  outline-offset: 2px;
+}
+
+
+.custom-contact-info {
+  margin-top: 30px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.custom-icon {
+  margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+  .custom-contact-title {
+    font-size: 1.5rem;
+  }
+
+  .custom-contact-button {
+    font-size: 0.95rem;
+  }
+}
