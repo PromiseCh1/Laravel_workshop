@@ -23,6 +23,7 @@
             <li><a href="{{ route('about') }}">About</a></li>
             <li><a href="{{ route('contact') }}">Contact</a></li>
             <li><a href="{{ route('login') }}">Login</a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
         </ul>
 
       </nav>
@@ -31,12 +32,12 @@
 
   <div class="hero">
     <div class="hero-slider">
-      <img src="{{asset('assets/frontend/photos/R1.jpg')}}" class="active" />
-      <img src="{{asset('assets/frontend/photos/R2.jpg')}}" />
-      <img src="{{asset('assets/frontend/photos/R3.jpg')}}" />
-      <img src="{{asset('assets/frontend/photos/R4.jpg')}}" />
+      <img src="{{asset('assets/frontend/photos/home/R1.jpg')}}" class="active" loading="lazy" />
+      <img src="{{asset('assets/frontend/photos/home/R2.jpg')}}"  />
+      <img src="{{asset('assets/frontend/photos/home/R3.jpg')}}" />
+      <img src="{{asset('assets/frontend/photos/home/R4.jpg')}}" />
       <video muted playsinline preload="auto">
-        <source src="{{asset('assets/frontend/photos/R4.mp4')}}" type="video/mp4" />
+        <source src="{{asset('assets/frontend/photos/home/R4.mp4')}}" type="video/mp4" />
       </video>
       
       
@@ -53,19 +54,19 @@
     <p><strong>New Arrivals</strong></p>
     <div class="category-grid">
       <div class="category-card">
-        <img src="{{asset('assets/frontend/Photos/Arrivals/Jackets/females/Tshirt/Blue floral 1.jpg')}}" alt="T-shirt">
+        <img src="{{asset('assets/frontend/Photos/Arrivals/Tshirt/Blue floral 1.jpg')}}" alt="T-shirt">
         <h3>T-Shirts</h3>
       </div>
       <div class="category-card">
-        <img src="{{asset('assets/frontend/Photos/Arrivals/Jackets/females/Hoodie/Mode23 Black Zip up Hoodie 2.jpg')}}" alt="Hoodie">
+        <img src="{{asset('assets/frontend/Photos/Arrivals/Hoodie/Mode23 Black Zip up Hoodie 2.jpg')}}" alt="Hoodie">
         <h3>Hoodie</h3>
       </div>
       <div class="category-card">
-        <img src="{{asset('assets/frontend/Photos/Arrivals/Jackets/females/Jacket/Willow Purple Corduroy Jacket 1.jpg')}}" alt="Jacket">
+        <img src="{{asset('assets/frontend/Photos/Arrivals/Jacket/Willow Purple Corduroy Jacket 1.jpg')}}" alt="Jacket">
         <h3>Jacket</h3>
       </div>
       <div class="category-card">
-        <img src="{{asset('assets/frontend/Photos/Arrivals/Jackets/females/Pants/Rusted black jeans 2.jpg')}}" alt="Accessories">
+        <img src="{{asset('assets/frontend/Photos/Arrivals/Pants/Rusted black jeans 2.jpg')}}" alt="Accessories">
         <h3>Pants</h3>
       </div>
     </div>

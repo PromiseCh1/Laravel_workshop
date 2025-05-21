@@ -111,6 +111,6 @@ card.addEventListener('click', () => {
     .replace(/pants?/, 'pant');
 
   // Redirect to the shop page with the category as a query parameter
-  window.location.href = `shop.html?category=${normalizedCategory}`;
+  window.location.href = `shop?category=${normalizedCategory}`;
 });
 });

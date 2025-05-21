@@ -52,7 +52,7 @@
             </p>
         </div>
         <div class="about-img">
-          <img src="{{asset('assets/frontend/Photos/Arrivals/Jackets/about_image.jpg')}}" alt="Store Image">
+          <img src="{{asset('assets/frontend/Photos/about/about_image.jpg')}}" alt="Store Image">
         </div>
       </div>
     </section>
@@ -100,8 +100,8 @@
       <div class="container">
         <h2>Ready to Experience CS Store?</h2>
         <div class="cta-buttons">
-          <a href="index.html" class="btn btn-primary">Shop Now</a>
-          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+          <a href="{{ route('index') }}" class="btn btn-primary">Shop Now</a>
+          <a href="{{ route('contact') }}" class="btn btn-outline">Contact Us</a>
         </div>
       </div>
     </section>

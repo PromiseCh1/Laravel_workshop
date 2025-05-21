@@ -20,6 +20,8 @@ Route::get('/', function () {
  })->name('index');
 
 
+ Route::get('/shop', [ShopController::class, 'index'])->name('shop');
+
  
 Route::get('/shop', function () {
     return view('shop');

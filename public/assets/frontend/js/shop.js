@@ -6,48 +6,48 @@ function setCategory(category) {
 
 const productData = {
   "t-shirt": [
-    { title: "Blues 1", price: "$29.99", img: "../assets/Photos/Arrivals/Jackets/females/Tshirt/Blue 1.jpg", rating: "★★★★★" },
-    { title: "Blue Floral", price: "$55.99", img: "/Photos/Arrivals/Jackets/females/Tshirt/Blue floral 1.jpg", rating: "★★★★★" },
-    { title: "Jane Casual Pink Shirt", price: "$79.99", img: "/Photos/Arrivals/Jackets/females/Tshirt/Jane causal Pink Shirt 2.jpg", rating: "★★★★☆" },
-    { title: "Jyacaranda full sleeve Tshirt", price: "$59.99", img: "/Photos/Arrivals/Jackets/females/Tshirt/Jyacaranda Full Sleeve Tshirt 1.jpg", rating: "★★★★☆" },
-    { title: "Mint Chillama llama polo tee", price: "$39.99", img: "/Photos/Arrivals/Jackets/females/Tshirt/Mint Chillma llama polo tee 1.jpg", rating: "★★★★★" },
-    { title: "Mode23 Brown Layered T-shirt", price: "$129.99", img: "/Photos/Arrivals/Jackets/females/Tshirt/Mode23 Brown Layered T-shirt 1.jpg", rating: "★★★★☆" }
+    { title: "Blues 1", price: "$29.99", img: "/assets/frontend/Photos/Arrivals/Tshirt/Blue 1.jpg", rating: "★★★★★" },
+    { title: "Blue Floral", price: "$55.99", img: "/assets/frontend/Photos/Arrivals/Tshirt/Blue floral 1.jpg", rating: "★★★★★" },
+    { title: "Jane Casual Pink Shirt", price: "$79.99", img: "/assets/frontend/Photos/Arrivals/Tshirt/Jane causal Pink Shirt 2.jpg", rating: "★★★★☆" },
+    { title: "Jyacaranda full sleeve Tshirt", price: "$59.99", img: "/assets/frontend/Photos/Arrivals/Tshirt/Jyacaranda Full Sleeve Tshirt 1.jpg", rating: "★★★★☆" },
+    { title: "Mint Chillama llama polo tee", price: "$39.99", img: "/assets/frontend/Photos/Arrivals/Tshirt/Mint Chillma llama polo tee 1.jpg", rating: "★★★★★" },
+    { title: "Mode23 Brown Layered T-shirt", price: "$129.99", img: "/assets/frontend/Photos/Arrivals/Tshirt/Mode23 Brown Layered T-shirt 1.jpg", rating: "★★★★☆" }
   ],
   "hoodie": [
     { 
       title: "Love Yourself Quotes Embroidered Grey Zip-Up Hoodie", 
       price: "$59.99", 
-      img: "/Photos/Arrivals/Jackets/females/hoodie/Love Yourself Quotes Embroidered Grey Zip-Up Hoodie 3.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/hoodie/Love Yourself Quotes Embroidered Grey Zip-Up Hoodie 3.jpg", 
       rating: "★★★★☆" 
     },
     { 
       title: "Vintage Green Corduroy Hood Jacket", 
       price: "$64.99", 
-      img: "/Photos/Arrivals/Jackets/females/hoodie/Vintage Green Corduroy Hood Jacket 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/hoodie/Vintage Green Corduroy Hood Jacket 1.jpg", 
       rating: "★★★★★" 
     },
     { 
       title: "Vintage Blue Corduroy Hood Jacket", 
       price: "$49.99", 
-      img: "/Photos/Arrivals/Jackets/females/hoodie/Vintage Blue Corduroy Hood Jacket 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/hoodie/Vintage Blue Corduroy Hood Jacket 1.jpg", 
       rating: "★★★☆☆" 
     }, 
     { 
       title: "Mode23 Black Zip Up Hoodie", 
       price: "$59.99", 
-      img: "/Photos/Arrivals/Jackets/females/hoodie/Mode23 Black Zip up Hoodie 2.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/hoodie/Mode23 Black Zip up Hoodie 2.jpg", 
       rating: "★★★★☆" 
     },
     { 
       title: "Love Yourself Quotes Embroidered Black Zip-Up Hoodie", 
       price: "$64.99", 
-      img: "/Photos/Arrivals/Jackets/females/hoodie/Love Yourself Quotes Embroidered Black Zip-Up Hoodie 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/hoodie/Love Yourself Quotes Embroidered Black Zip-Up Hoodie 1.jpg", 
       rating: "★★★★★" 
     },
     { 
       title: "Mode Brown Zip Up Hoodie", 
       price: "$49.99", 
-      img: "/Photos/Arrivals/Jackets/females/hoodie/Mode Brown Zip up Hoodie 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/hoodie/Mode Brown Zip up Hoodie 1.jpg", 
       rating: "★★★☆☆" 
     }
   ],
@@ -56,37 +56,37 @@ const productData = {
     { 
       title: "Mode Creamy Twill Jacket", 
       price: "$89.99", 
-      img: "/Photos/Arrivals/Jackets/females/jacket/Mode Creamy Twill Jacket 3.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/jacket/Mode Creamy Twill Jacket 3.jpg", 
       rating: "★★★★☆" 
     },
     { 
       title: "Sky Blue Varsity Jacket", 
       price: "$159.99", 
-      img: "/Photos/Arrivals/Jackets/females/jacket/Dropout Academy Sky Blue Varsity 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/jacket/Dropout Academy Sky Blue Varsity 1.jpg", 
       rating: "★★★★★" 
     },
     { 
       title: "Willow Purple Corduroy Jacket", 
       price: "$119.99", 
-      img: "/Photos/Arrivals/Jackets/females/jacket/Willow Purple Corduroy Jacket 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/jacket/Willow Purple Corduroy Jacket 1.jpg", 
       rating: "★★★☆☆" 
     },
     { 
       title: "Vintage Blue Corduroy Hood Jacket", 
       price: "$95.99", 
-      img: "/Photos/Arrivals/Jackets/females/jacket/Vintage Blue Corduroy Hood Jacket 2.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/jacket/Vintage Blue Corduroy Hood Jacket 2.jpg", 
       rating: "★★★★☆" 
     },
     { 
       title: "Half Sporty Blue Jacket", 
       price: "$169.99", 
-      img: "/Photos/Arrivals/Jackets/females/jacket/Half Sporty Blue Jacket 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/jacket/Half Sporty Blue Jacket 1.jpg", 
       rating: "★★★★★" 
     },
     { 
       title: "Grey Sherpa Jacket", 
       price: "$109.99", 
-      img: "/Photos/Arrivals/Jackets/females/jacket/grey sherpa jacket 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/jacket/grey sherpa jacket 1.jpg", 
       rating: "★★★☆☆" 
     }
   ],
@@ -95,37 +95,37 @@ const productData = {
     { 
       title: "Black Jeans", 
       price: "$54.99", 
-      img: "/Photos/Arrivals/Jackets/females/pants/BLACK JEANS 2.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/pants/BLACK JEANS 2.jpg", 
       rating: "★★★★☆" 
     },
     { 
       title: "Rusted Black Jeans", 
       price: "$44.99", 
-      img: "/Photos/Arrivals/Jackets/females/pants/Rusted black jeans 2.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/pants/Rusted black jeans 2.jpg", 
       rating: "★★★☆☆" 
     },
     { 
       title: "Blue Jeans", 
       price: "$64.99", 
-      img: "/Photos/Arrivals/Jackets/females/pants/Blue jeans 2.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/pants/Blue jeans 2.jpg", 
       rating: "★★★★★" 
     },
     { 
       title: "KO Style Pants", 
       price: "$52.99", 
-      img: "/Photos/Arrivals/Jackets/females/pants/KO 2.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/pants/KO 2.jpg", 
       rating: "★★★★☆" 
     },
     { 
       title: "Baggy Black Pants", 
       price: "$42.99", 
-      img: "/Photos/Arrivals/Jackets/females/pants/baggy black.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/pants/DSC09094 (1).jpg", 
       rating: "★★★☆☆" 
     },
     { 
       title: "Astro Style Pants", 
       price: "$61.99", 
-      img: "/Photos/Arrivals/Jackets/females/pants/astro 1.jpg", 
+      img: "/assets/frontend/Photos/Arrivals/pants/astro 1.jpg", 
       rating: "★★★★★" 
     }
   ]
@@ -157,6 +157,8 @@ function renderProducts(categoryKey) {
     grid.appendChild(div);
   });
 }
+
+
 
 // Initial load: show T-Shirt category
 renderProducts("t-shirt");

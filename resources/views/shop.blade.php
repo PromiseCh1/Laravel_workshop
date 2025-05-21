@@ -38,12 +38,12 @@
 
   <div class="hero">
   <div class="hero-slider">
-      <img src="{{asset('assets/frontend/photos/R1.jpg')}}" class="active" />
-      <img src="{{asset('assets/frontend/photos/R2.jpg')}}" />
-      <img src="{{asset('assets/frontend/photos/R3.jpg')}}" />
-      <img src="{{asset('assets/frontend/photos/R4.jpg')}}" />
+      <img src="{{asset('assets/frontend/photos/home/R1.jpg')}}" class="active" />
+      <img src="{{asset('assets/frontend/photos/home/R2.jpg')}}" />
+      <img src="{{asset('assets/frontend/photos/home/R3.jpg')}}" />
+      <img src="{{asset('assets/frontend/photos/home/R4.jpg')}}" />
       <video muted playsinline preload="auto">
-        <source src="{{asset('assets/frontend/photos/R4.mp4')}}" type="video/mp4" />
+        <source src="{{asset('assets/frontend/photos/home/R4.mp4')}}" type="video/mp4" />
       </video>
       
       
